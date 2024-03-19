@@ -1,8 +1,15 @@
-# React + Vite
+# Proyecto CANDYSHOP (Digital House)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nuestra página de CandyShop ofrece una amplia y deliciosa variedad de golosinas y dulces que deleitarán a personas de todas las edades. Encontrarás algo para satisfacer todos los antojos de azúcar. Ofrecemos una selección de productos que incluyen:
 
-Currently, two official plugins are available:
+Chocolates: desde barras de chocolates, bombones, alfajores, tabletas y muchas opciones más.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Golosinas: caramelos, chicles, gomitas, chupetines, entre otros.
+
+Dulces temáticos: Para celebraciones y eventos especiales, ofrecemos una variedad de golosinas temáticas, como dulces de Halloween, Navidad o San Valentín.
+
+Regalos personalizados: Creamos regalos de dulces personalizados para ocasiones especiales, como por ejemplo ramos de golosinas a elección.
+
+Dulces internacionales: Ofrecemos una selección de dulces y chocolates de todo el mundo, permitiéndote explorar sabores internacionales.
+
+Opciones sin azúcar: Para aquellos con restricciones dietéticas, también ofrecemos una selección de golosinas sin azúcar.

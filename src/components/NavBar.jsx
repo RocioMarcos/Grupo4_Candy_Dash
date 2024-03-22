@@ -9,7 +9,7 @@ function NavBar() {
                     <img src={ logo } alt="Logo de CandyShop" width="66px"/>
                 </div>
                 <div className="horizontal">
-                    <button type="button" onclick="opencloseMenu()">
+                    <button type="button">
                         <i className="bi bi-list"></i> Cerrar Sesión
                     </button>
                 </div>

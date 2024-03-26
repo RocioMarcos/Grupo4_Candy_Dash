@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import '../App.css'
-import { BrowserRouter } from 'react-router-dom';
-import Index from './IndexStart';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { IndexStart } from './IndexStart';
 
 function App() {
     return (
         <BrowserRouter>
-            
-            <Index/>
+            <Routes>
+                <Route path="/" element={ <IndexStart/> } /> 
+
+            </Routes>
+        
 
         </BrowserRouter>
     )

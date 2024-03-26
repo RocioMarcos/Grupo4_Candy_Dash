@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import '../App.css'
-import SideBar from './SideBar'
 import { BrowserRouter } from 'react-router-dom';
+import Index from './IndexStart';
 
 function App() {
     return (
         <BrowserRouter>
-            <SideBar/>
-
+            
+            <Index/>
 
         </BrowserRouter>
     )

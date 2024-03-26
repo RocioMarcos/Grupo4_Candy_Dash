@@ -2,6 +2,7 @@
     --bg-principal: #FCFCFC;
     --bg-disabled: #DEDEDE;
     --bg-amarillo: #FFE66B;
+    --bg-rosa-pastel: #FFD9EF;
     --bg-rosa-claro: #FFB4E0;
     --bg-rosa-medio: #F880B2;
     --bg-rosa-oscuro: #FF6AC2;
@@ -21,6 +22,8 @@
     --text-blanco: #FCFCFC;
     --text-rosa-claro: #E474BA;
     --text-rosa-oscuro: #8E2764;
+    --text-rosa-oscuro-50: #AB5387;
+    --text-rosa-oscuro-25: #8e276536;
     --text-violeta: #AA63EC;
     --text-gris: #535353;
     --text-amarillo: #D58000;
@@ -35,4 +38,104 @@
 
     --sombra-primaria: rgba(39, 39, 39, 0.2);
     --sombra-secundaria: #2f06553d;
+    --sombra-rosa: #e474b94a;
+}
+
+body {
+	margin: 0;
+	padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+/* NavBar */
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    height: 75px;
+    background-color: var(--bg-principal);
+    box-shadow: 0px 4px 4px var(--sombra-rosa);
+}
+
+.navbar-img{
+    height: 60px;
+    margin-left: 20px;
+}
+
+.navbar-session-out{
+    display: flex;
+    align-items: end;
+    height: 50px;
+}
+
+.bi-box-arrow-right{
+    font-size: 40px;
+    margin-right: 20px;
+    color: var(--text-violeta);
+    text-shadow: 1px 1px 0px var(--text-violeta);
+}
+
+/* SideBar */
+.sidebar{
+    display: flex;
+    width: 250px;
+    background-color: var(--bg-rosa-pastel);
+    height: calc(100vh - 75px);
+    box-shadow: 2px 0px 4px var(--sombra-rosa);
+}
+
+#sidebar-menu-opciones{
+    list-style: none;
+    padding: 0px;
+}
+
+.sidebar-inicio-link, .sidebar-pedidos-link, .sidebar-productos-link, .sidebar-usuarios-link, .sidebar-estadisticas-link{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--text-rosa-oscuro-50);
+}
+
+.sidebar-opcion{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 2px solid var(--text-rosa-oscuro-25);
+}
+
+.jc-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi-chevron-down{
+    text-shadow: 0px 1px 0px var(--text-rosa-oscuro-50);
+}
+
+/* Index */
+.index{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: var(--bg-principal);
+}
+
+.index-body{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.index-divisor-rosa{
+    height: 20px;
+    width: calc(100vw - 250px);
+    background-color: var(--bg-rosa-claro);
 }

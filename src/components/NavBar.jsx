@@ -1,20 +1,14 @@
 import React from 'react'
-import { logo } from '../assets/img/candyshop-sm.png'
+import logo from '../assets/img/candyshop-sm.png'
 
 function NavBar() {
     return (
-        <header>
-            <nav id="navbar" className="sombra-sm">
-                <div>
-                    <img src={ logo } alt="Logo de CandyShop" width="66px"/>
-                </div>
-                <div className="horizontal">
-                    <button type="button">
-                        <i className="bi bi-list"></i> Cerrar Sesión
-                    </button>
-                </div>
-            </nav>
-        </header>
+        <nav id="navbar" className="navbar">
+            <img className='navbar-img' src={ logo } alt="Logo de CandyShop"/> 
+            <a className="navbar-session-out">
+                <i className="bi bi-box-arrow-right"></i>
+            </a>
+        </nav>
     )
 }
 
